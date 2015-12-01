@@ -692,7 +692,7 @@
 
 				if (contentText.constructor === Array) { contentText = contentText[(lang === 'zh-TW') ? 0 : 1]; }
 				
-				if (contentText.constructor === String) { contentText = contentText.replace(/</g, '&lt').replace(/>/g, '&gt'); }
+				if (tagName !== 'pre' && contentText.constructor === String) { contentText = contentText.replace(/</g, '&lt').replace(/>/g, '&gt'); }
 
 				if (tagName === 'code') {
 					contentItem.appendChild(content[j].code());
