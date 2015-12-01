@@ -7,3 +7,6 @@ rightCruise.js makes it possible to scroll via mousedown mouse right button in a
 <script type="text/javascript" src="path/to/rightCruise.js"></script>
 ```
 <p>Done.</p>
+
+# More info
+See demo: http://hsuyj.github.io/rightcruise/
