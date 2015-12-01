@@ -1,0 +1,23 @@
+﻿showState
+
+	description
+		Open a console access(read-only) to States and Settings of rightCruise.js.
+	value
+		true / false
+		Default: false
+
+transmit
+
+	description
+		When a DOM object is scrolled to it's limitation, the scrolling action from user will pass to the object's parent.
+	value
+		true / false
+		Default: true
+
+oneDirection
+
+	description
+		User can only scroll horizontally or vertically at a time.
+	value
+		true / false
+		Default: false
