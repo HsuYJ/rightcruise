@@ -41,7 +41,7 @@
 				'Right button scrolling']},
 			{p: [
 				'rightCruise.js 讓使用者在網頁上任何位置皆能使用滑鼠右鍵捲動網頁。現在就在Live Demo中試試！',
-				'rightCruise.js makes it possible to scroll via mousedown mouse right button in anywhere of web page. You can try it in Live Demo!']},
+				'rightCruise.js makes it possible to scroll via mousedown right button in anywhere of web page. You can try it in Live Demo!']},
 			{h3: [
 				'特色',
 				'Features']},
