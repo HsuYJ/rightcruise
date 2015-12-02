@@ -191,7 +191,6 @@ var Global = window;
 						'z-index'   : undefined, // set by Setting.zIndex
 						'position'  : 'absolute',
 						'display'   : 'none',
-						'background': 'red !important',
 						'opacity'   : '0.75'
 					}
 				},
