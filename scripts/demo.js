@@ -873,10 +873,30 @@
 
 		var footer = createEl({
 			id: 'footer',
-			text: 'This is Footer.',
 			className: 'footer'
 		});
 		body.appendChild(footer);
+
+		var holder = createEl({
+			style:
+				'margin: 15px auto;' +
+				'width: 32px;' +
+				'height: 32px;'
+		});
+		holder.setAttribute('title', 'Go get it!')
+		footer.appendChild(holder);
+
+		var link = createEl({
+			type: 'a',
+		});
+		link.href = 'https://github.com/HsuYJ/rightcruise';
+		holder.appendChild(link);
+
+		var icon = createEl({
+			type: 'img'
+		});
+		icon.src = './images/GitHub-Mark-Light-32px.png';
+		link.appendChild(icon);
 		// modify last section
 		var section = State.sectionScroll.section;
 
