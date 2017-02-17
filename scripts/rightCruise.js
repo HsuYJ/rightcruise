@@ -718,7 +718,7 @@ var Global = window;
 		for (i = 0; i < els.length; i++) {
 			var el = els[i];
 			// <html>, last element
-			if (el === document.documentElement) { break; }
+			if (el === document.body) { break; }
 
 			if (Setting.scrollMarkedElOnly) {
 				if (el.getAttribute('cruisemark') !== 'true') { continue; } // skip
