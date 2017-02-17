@@ -725,6 +725,7 @@ var Global = window;
 				if (el.getAttribute('cruisemark') !== 'true') { continue; } // skip
 			} else {
 				// scrollType 3: not scrollable
+				console.log(el);
 				if (Determine.scrollType(el) === 3) { continue; } // skip
 			}
 			// scrollable
