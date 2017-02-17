@@ -478,10 +478,10 @@ var Global = window;
 		if (e.button === 2) {
 
 			var Path = e.path || Get.path(e.target);
+			console.log(Path);
 			var selectList = document.getElementById('selectList');
 			var scrollable = collectAffectedEl(Path);
 			var i;
-			console.log(scrollable);
 			// clear momentum
 			clearInterval(UncleanableState.timer.momentum);
 			// if cruise selectList, turn off transmit
